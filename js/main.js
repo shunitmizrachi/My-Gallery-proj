@@ -36,5 +36,29 @@ const gProjs = [
         url: "projs/book-shop",
         publishedAt: 1448693940000,
         labels: ["Matrixes", "keyboard events"],
-    }
+    },
+   
 ]
+
+renderGrid()
+function renderGrid() {
+    var projs = gProjs
+    var strHtmls = projs.map(function (proj) {
+
+        return `<div class="col-md-4 col-sm-4 portfolio-item">
+    <a class="portfolio-link" data-toggle="modal" href="#portfolioModal1">
+      <div class="portfolio-hover">
+        <div class="portfolio-hover-content">
+          <i class="fa fa-plus fa-3x"></i>
+        </div>
+      </div>
+      <img class="img-fluid" src="img/portfolio/${proj.id}.jpg" alt="">
+    </a>
+    <div class="portfolio-caption">
+      <h4>${proj.title}</h4>
+      <p class="text-muted">${proj.desc}</p>
+    </div>`
+    })
+
+    $('.projs-container').html(strHtmls)
+}
