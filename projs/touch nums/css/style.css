@@ -1,0 +1,109 @@
+body {
+    text-align: center;
+    background-color: rgb(20, 18, 20);
+    color: whitesmoke;
+    font-family: fantasy;
+  }
+
+  h1 {
+    color: whitesmoke;
+    font-size:100px;
+    font-family: fantasy;
+    cursor: pointer;  
+  }
+
+  h1:hover {
+    color: rgba(82, 73, 73, 0.877);
+  }
+
+  h2 {
+    color: rgb(226, 114, 148);
+    font-size:70px;
+    font-family: fantasy;
+    cursor: pointer;  
+  }
+
+  h3 {
+    font-size: 50px;
+  }
+
+  h2:hover {
+    color: rgba(82, 73, 73, 0.877);
+  }
+
+  table {
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .board{
+      width: 100%;
+  }
+
+  .board td {
+    width: 100px;
+    height: 100px;
+    text-align: center;
+    transition: 0.5s;
+    border:solid 10px rgb(243, 207, 153);
+    padding: 15px;
+    font-size: 40px;
+    border-radius: 30%;
+    cursor: pointer;
+
+}
+
+.board td:hover {
+    background-color: rgb(168, 156, 151);
+}
+
+.cellColor {
+    background-color: rgb(226, 114, 148);
+}
+
+.time {
+    
+    position:absolute;
+    left: 1700px;
+    padding: 20px;
+    height: 70px;
+    width: 140px;
+    border:solid 8px rgb(128, 128, 113);
+    background-color: rgb(214, 82, 148);
+    font-size: 30px;
+    border-radius: 10%;
+    bottom: 1200px;
+    left: 65%;
+}
+
+.time:hover {
+    background-color: rgb(71, 82, 92);
+    cursor: pointer;
+}
+
+button {
+    padding: 10px;
+    margin: 10px;
+    height: 100px;
+    width: 200px;
+    font-family: fantasy;
+    font-size: 25px;
+    margin-bottom: 30px;
+    cursor: pointer;
+    background-color: lightyellow;
+    border: solid 8px rgb(218, 121, 121);
+    border-radius: 10%;
+}
+
+button:hover {
+    background-color:rgb(192, 197, 201); 
+}
+
+span button {
+  display: block;
+}
+
+.reset {
+  color:black;
+  
+}

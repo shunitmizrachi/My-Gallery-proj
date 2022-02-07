@@ -1,0 +1,118 @@
+body {
+    background-color:rgb(59, 56, 56);
+    animation: color 9s infinite linear;
+    text-align: center;
+    padding: 2em;
+  }
+
+h1 {
+    text-align: center;
+    font-family: papyrus;
+    font-size: 7.5em;
+    color: white;
+  }
+
+h1:hover {
+    color: rgba(82, 73, 73, 0.877);
+}
+
+table {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.board{
+    width: 100%;
+    
+}
+
+.board td {
+    width: 160px;
+    height: 160px;
+    text-align: center;
+    transition: 0.5s;
+    border:solid black;
+    padding: 15px;
+    font-size: 120px;
+    border-radius: 5%;
+    cursor: pointer;
+}
+
+.board td:hover {
+    background-color: rgb(168, 156, 151);
+}
+
+
+button {
+  align-self: center;
+  background-color: black;
+  background-image: none;
+  background-position: 0 90%;
+  background-repeat: repeat no-repeat;
+  background-size: 4px 3px;
+  border-radius: 15px 225px 255px 15px 15px 255px 225px 15px;
+  border-style: solid;
+  border-width: 2px;
+  box-shadow: rgba(0, 0, 0, .2) 15px 28px 25px -18px;
+  box-sizing: border-box;
+  color: #ffffff;
+  cursor: pointer;
+  display: inline-block;
+  font-family: papyrus;;
+  font-size: 2rem;
+  line-height: 23px;
+  outline: none;
+  padding: 2.95rem;
+  text-decoration: none;
+  transition: all 235ms ease-in-out;
+  border-bottom-left-radius: 15px 255px;
+  border-bottom-right-radius: 225px 15px;
+  border-top-left-radius: 255px 15px;
+  border-top-right-radius: 15px 225px;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  font-size: 70px;
+}
+
+button:hover {
+  box-shadow: rgba(0, 0, 0, .3) 2px 8px 8px -5px;
+  transform: translate3d(0, 2px, 0);
+}
+
+button:focus {
+  box-shadow: rgba(0, 0, 0, .3) 2px 8px 4px -6px;
+}
+
+h2 {
+    font-family: papyrus;
+    font-size: 6.5em;
+    color: white;
+}
+
+.modal {
+    display: inline-block;
+    padding: 15px;
+    font-size: 6.5em;
+    font-family: papyrus;
+    color: white;
+}
+
+.showEmpty {
+    background-color:  rgb(238, 243, 247);
+}
+
+.showNumber {
+    background-color:rgb(238, 243, 247);
+}
+
+.smile {
+    font-size: 150px;
+    padding: 30px;
+}
+
+h3 {
+    font-size: 100px;
+    font-family: papyrus;
+    color: white;
+}
